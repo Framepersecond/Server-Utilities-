@@ -1,0 +1,9 @@
+# config.yml
+
+motd: "&3&lWillkommen auf meinem Server! Viel Spaß beim Spielen!"
+jail:
+  world: "world"
+  x: 1000000.485
+  y: 252
+  z: 1000000.485
+

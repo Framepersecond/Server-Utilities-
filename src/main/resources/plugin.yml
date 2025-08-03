@@ -1,0 +1,52 @@
+name: Server
+version: '1.1'
+main : main.main
+api-version: '1.21'
+
+commands:
+  break:
+    description: toggles block breaking
+    permission: 'server.break'
+  build:
+    description: toggles block placing
+    permission: 'server.build'
+  trash:
+    description: Opens a Trashcan
+    permission: "server.trash"
+  backpack:
+    description: Opens a backpack
+    aliases: [ bp ]
+    permission: "server.bp"
+  colorcodes:
+    description: Displays all Minecraft color codes.
+    permision : "server.bp"
+  lumber:
+    description: Opens a GUI to enable or disable lumber
+    permission: "server.lumber"
+  server:
+    description: Opens a GUI based on the player's permissions
+    permission: 'server.GUI'
+  rules:
+    description: Shows Server Rules
+    permission: 'server.rules'
+  msg:
+    description: Sends a private message to another player
+    permission: 'server.msg'
+  tpa:
+    description: Sends a teleport request to another player
+    permission: "server.tpa"
+  tpo:
+    description: Teleports you to another player
+    permission: "server.tpo"
+  tpaccept:
+    description: Accepts a teleport request
+    permission: "server.tpa"
+  tpdeny:
+    description: Denies a teleport request
+    permission: "server.tpa"
+  clear:
+    description: Clears inventory of given Player
+    permission: "server.clear"
+  back:
+    description: Teleport to your last death location.
+    permission: "server.back"
